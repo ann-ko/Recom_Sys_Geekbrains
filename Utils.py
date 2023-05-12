@@ -1,4 +1,4 @@
-# ALL IMPORTS HERE
+# Импорт всего и вся.
 from src.metrics import precision_at_k
 from src.recommenders import MainRecommender
 import pandas as pd
