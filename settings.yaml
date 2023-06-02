@@ -1,0 +1,11 @@
+# CONSTANTS
+ITEM_COL: 'item_id'
+USER_COL: 'user_id'
+ACTUAL_COL: 'actual'
+TAKE_N_POPULAR: 5 # remove items less then that popularity
+N_PREDICT: 50 # N = Neighbors
+TOPK_PRECISION: 5
+VAL_MATCHER_WEEKS: 6
+VAL_RANKER_WEEKS: 3
+CATBOOST_RANKER: 'YetiRankPairwise'
+CATBOOST_ITERATIONS: 2000
